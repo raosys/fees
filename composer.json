@@ -1,0 +1,19 @@
+{
+    "name": "raosys/fees",
+    "description": "A package to add fees management modules to laravel school management portals, Works good for colleges and universities",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Raosys\\Fees\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arnold Wamae",
+            "email": "arnoldwamae2@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
