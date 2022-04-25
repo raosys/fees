@@ -10,6 +10,9 @@ use Illuminate\Support\Facades\App;
 class FeeStructure extends Model
 {
     use HasFactory, SoftDeletes;
+    protected $fillable = [
+        'course_id', 'serial_code', 'status'
+    ];
     public function entry_items()
     {
         return $this->hasMany(EntryItem::class);

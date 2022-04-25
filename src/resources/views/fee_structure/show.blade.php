@@ -214,13 +214,13 @@
                 if (res.status == 204) {
                     this.voteheads.splice(this.deletingIndex, 1);
                     this.confirm_modal = false;
-                    this.deleting = false;
                     this.deletingEntry = {};
                     this.deletingIndex = -1;
                     this.$Message.success('Entry Deleted Succesfully');
                 } else {
                     this.$Message.error('Error Occured While Deleting Entry');
                 }
+                this.deleting = false;
             },
 
             deleteEntry(entry, index) {
