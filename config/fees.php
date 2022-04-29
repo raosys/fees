@@ -21,5 +21,33 @@ return [
     'course_table_columns' => [
         'name' => 'CourseName',
         'short_name' => 'ShortCourseName'
-    ]
+    ],
+    /*
+    |--------------------------------------------------------------------------
+    | Get the Student  Model
+    |--------------------------------------------------------------------------
+    |
+    | The model we shoukd use to get the student details
+    | Ensure thi model implements the StudentTrait Raosys\Fees\Traits\StudentTrait
+    |
+    */
+    'student_model' => App\Models\Student::class,
+
+    /*
+    |--------------------------------------------------------------------------
+    | Get the Student  Model
+    |--------------------------------------------------------------------------
+    |
+    | The model we shoukd use to get the student details
+    | Ensure thi model implements the StudentTrait Raosys\Fees\Traits\StudentTrait
+    |
+    */
+    'sudent_model_columns' => [
+        'id' => 'id',
+        'name' => 'StudentName',
+        'email' => 'StudentEmail',
+        'reg_number' => 'StudentRegNumber',
+    ],
+
+
 ];

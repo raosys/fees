@@ -17,6 +17,7 @@ The package is to help developers quickly spin up school portals with less hustl
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 ## Installation
 ```composer require raosys/fees```
+
 ```php artisan vendor:publish```
 
 

@@ -26,13 +26,13 @@
                     <i class="material-icons opacity-10">person</i>
                 </div>
                 <div class="text-end pt-1">
-                    <p class="text-sm mb-0 text-capitalize">Today's Users</p>
-                    <h4 class="mb-0">2,300</h4>
+                    <p class="text-sm mb-0 text-capitalize">Fee Structures</p>
+                    <h4 class="mb-0">{{\Raosys\Fees\Models\FeeStructure::count()}}</h4>
                 </div>
             </div>
             <hr class="dark horizontal my-0">
             <div class="card-footer p-3">
-                <p class="mb-0"><span class="text-success text-sm font-weight-bolder">+3% </span>than lask month</p>
+                <p class="mb-0"><span class="text-success text-sm font-weight-bolder"></span>Available Fee Structures</p>
             </div>
         </div>
     </div>
