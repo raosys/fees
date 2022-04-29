@@ -1,7 +1,7 @@
 ## Laravel Fees Package
 
 [![Issues](https://img.shields.io/github/issues/raosys/fees.svg?style=flat-square)](https://github.com/issues/raosys/fees)
-[![Stars](https://img.shields.io/github/stars/raosys/fees&style=flat-square)](https://github.com/stars/raosys/fees)
+[![GitHub stars](https://img.shields.io/github/stars/raosys/fees?style=for-the-badge)](https://github.com/raosys/fees/stargazers)
 [![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fraosys%2Ffees?style=flat-square)](https://twitter.com/raosys)
 	
 ### A package to add fees management modules to laravel school management portals, Works good for colleges and universities
