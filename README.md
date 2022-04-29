@@ -25,7 +25,16 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 ## Installation
 ```composer require raosys/fees```
 
-```php artisan vendor:publish```
+```php artisan vendor:publish``` and publish assets with tag fees and FeeServiceProvider
+
+- On generated fees.php config file set appropriate models
+
+run migrations by ```php artisan migrate```
+
+Update your 
+-courses model and use CourseTrait 
+-Student model to use the StudentTrait 
+both provided by the package
 
 
 ## configuration

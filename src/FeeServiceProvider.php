@@ -19,7 +19,8 @@ class FeeServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
         $this->publishes([
             __DIR__ . '/resources/assets/' => public_path('vendor\raosys\fees'),
-        ], 'public');
+            __DIR__ . '/config/fees.php' => config_path('fees.php'),
+        ], 'fees');
     }
 
     /**
@@ -29,9 +30,9 @@ class FeeServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__ . '/../config/fees.php', 'fees');
-        // $this->app->bind('fees', function ($app) {
-        //     return new Fees;
-        // });
+        $this->mergeConfigFrom(__DIR__ . '/config/fees.php', 'fees');
+        // // $this->app->bind('fees', function ($app) {
+        // //     return new Fees;
+        // // });
     }
 }
